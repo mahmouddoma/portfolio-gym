@@ -47,7 +47,7 @@ body {
   justify-content: center;
   cursor: pointer;
   transition: background 0.3s ease;
-  margin: 20px auto;
+  margin: 20px 0;
 }
 
 .btn-hero:hover {
@@ -251,6 +251,9 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
+#Training-classes {
+  margin-bottom: -239px;
+}
 
 .training-img {
   position: relative;
@@ -269,16 +272,16 @@ body {
 .img-2 {
   width: 337px;
   height: 264px;
-  left: 300px;
-  top: 150px;
+  left: 201px;
+  top: -185px;
   z-index: 999;
 }
 
 .img-3 {
   width: 340px;
   height: 240px;
-  left: 60px;
-  top: 320px;
+  left: 0;
+  top: -258px;
   z-index: 999;
 }
 
@@ -549,7 +552,7 @@ body {
 }
 
 .price {
-  color: #333;
+  color: #fff;
   font-size: 1.2em;
   font-weight: bold;
   margin: -7px 0;
