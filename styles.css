@@ -8,6 +8,7 @@ body {
   font-family: "Clarendon-DemiBold", serif;
   background-color: var(--bg-color);
   color: white;
+  overflow-x: hidden;
 }
 /* Navbar */
 .navbar {
@@ -99,6 +100,7 @@ body {
   }
   .counter {
     justify-content: center;
+    font-size: 14px !important;
   }
   .counter-item {
     margin: 10px;
@@ -245,15 +247,17 @@ body {
 
 /* training styles */
 .training-images {
-  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .training-img {
-  position: absolute;
-  border-radius: 12px;
-  transition: transform 0.3s ease-in-out;
+  position: relative;
+  margin-bottom: 10px;
+  max-width: 100%;
+  height: auto;
 }
-
 .img-1 {
   width: 488px;
   height: 301px;
@@ -325,6 +329,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+    overflow-x: hidden;
   }
   #Training-classes > div > div.col-lg-6.col-md-6.mb-5 {
     margin-left: 250px;
