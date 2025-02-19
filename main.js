@@ -18,13 +18,13 @@ animateCounter("trainers", 200, 1500);
 animateCounter("tools", 20, 2500);
 
 //arrivals logic
-document.addEventListener("DOMContentLoaded", function () {
+window.onload = function () {
   var swiper = new Swiper(".arrivals-swiper", {
     slidesPerView: 1,
     spaceBetween: 10,
     loop: true,
     autoplay: {
-      delay: 1000,
+      delay: 2000,
       disableOnInteraction: false,
     },
     navigation: {
@@ -47,7 +47,7 @@ document.addEventListener("DOMContentLoaded", function () {
       },
     },
   });
-});
+};
 
 // red heard
 document.querySelectorAll(".heart").forEach((heart) => {
