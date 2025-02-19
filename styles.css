@@ -345,7 +345,9 @@ body {
   .training-images {
     height: auto;
   }
-
+  #Training-classes {
+    margin-bottom: -190px;
+  }
   .training-img {
     position: relative;
     margin-bottom: 10px;
@@ -400,7 +402,9 @@ body {
     text-align: center;
     margin-top: 20px;
   }
-
+  #Training-classes {
+    margin-bottom: -190px;
+  }
   #Training-classes > div > div.col-lg-6.col-md-6.text-center.training-images {
     margin-left: 0;
     margin-top: 0;
