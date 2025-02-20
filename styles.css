@@ -88,24 +88,30 @@ body {
   margin-top: 8px;
 }
 @media (max-width: 768px) {
-  .hero-text h2 {
-    font-size: 32px;
-  }
-  .hero-text p {
-    font-size: 20px;
-  }
-  .btn-hero {
-    width: 180px;
-    height: 44px;
-  }
   .counter {
-    justify-content: center;
-    font-size: 14px !important;
+    flex-wrap: nowrap;
+    gap: 15px;
+    font-size: 12px !important;
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 10px 0;
   }
   .counter-item {
-    margin: 10px;
+    margin: 5px;
+  }
+  .counter-number {
+    font-size: 24px; /* Smaller number */
+  }
+  .counter-label {
+    font-size: 14px; /* Smaller label */
+  }
+  .btn-hero {
+    text-align: center;
+
+    margin: 0 auto;
   }
 }
+
 /* categories styles */
 .categories {
   text-align: center;
