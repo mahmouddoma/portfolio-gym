@@ -414,6 +414,7 @@ body {
   #Training-classes > div > div.col-lg-6.col-md-6.text-center.training-images {
     margin-left: 0;
     margin-top: 0;
+    margin-bottom: 100px;
   }
 
   .training-img {
@@ -435,8 +436,8 @@ body {
   .img-2 {
     width: 150px;
     height: 130px;
-    left: -90px;
-    top: -58px;
+    left: -212px;
+    top: 40px;
     z-index: 999;
     object-fit: contain;
   }
@@ -444,8 +445,8 @@ body {
   .img-3 {
     width: 155px;
     height: 110px;
-    left: -184px;
-    top: -120px;
+    left: -195px;
+    top: -20px;
     z-index: 999;
     object-fit: contain;
   }
@@ -467,7 +468,7 @@ body {
     width: 24px !important;
     position: absolute !important;
     z-index: -1 !important;
-    margin-left: -270px !important;
+    margin-left: -288px !important;
   }
 
   .training-text li p {
@@ -548,6 +549,12 @@ body {
   align-items: center;
   justify-content: space-between;
   width: 100%;
+}
+body
+  > div:nth-child(7)
+  > div
+  > div.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  top: 0;
 }
 .product-card:hover {
   transform: translateY(-5px);
@@ -797,7 +804,7 @@ body {
     font-size: 24px;
   }
   .best-sellers-img {
-    left: 108px;
+    left: 126px !important;
   }
 
   .coaching-text {
@@ -963,7 +970,10 @@ body {
   #membersCarousel > button.carousel-control-next {
     right: 0;
   }
-
+  .our-members-img {
+    left: 14% !important;
+    width: 40px;
+  }
   .carousel-control-prev,
   .carousel-control-next {
     width: 30px !important;
